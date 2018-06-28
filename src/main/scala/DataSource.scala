@@ -1,7 +1,7 @@
 package org.template.rnn
 
-import io.prediction.controller._
-import io.prediction.data.store.PEventStore
+import org.apache.predictionio.controller._
+import org.apache.predictionio.data.store.PEventStore
 
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
